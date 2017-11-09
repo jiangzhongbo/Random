@@ -74,6 +74,6 @@ public class RandomWELL
 
     public int Range(int min, int max)
     {
-        return (int)((min - max) * frand2() + min);
+        return (int)((max - min) * frand2() + min);
     }
 }
