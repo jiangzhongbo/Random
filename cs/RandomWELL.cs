@@ -89,7 +89,7 @@ public class RandomWELL
 
     public float Range(float min, float max)
     {
-        return (min - max) * frand() + min;
+        return ((max - min) * frand() + min;
     }
 
     public int Range(int min, int max)
